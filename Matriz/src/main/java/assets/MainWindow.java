@@ -4,7 +4,9 @@
  */
 package assets;
 
+
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 /**
  *
@@ -13,8 +15,7 @@ import javax.swing.JFrame;
 public class MainWindow extends JFrame{
     private int an,al;
     private boolean visible;
-    private String tittle = "Proyecto Gaussjordan";
-
+    private String tittle = "Matrix";
     public MainWindow() {
     }
 //contructor
@@ -28,12 +29,20 @@ public class MainWindow extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setTitle(tittle);
+        
         initComponents();
     }
     //iniciar componentes
     
     private void initComponents()
     {
+        JLabel label1 = new JLabel();
+        label1.setText("Matrix");
+        label1.setFont(new java.awt.Font("Arial Black", 4, 60));
+        label1.setBounds(250,-200, 500, 500);
+        //comenzar a añadir componentes del panel
+        add(label1);
+        
         
         
         
