@@ -1,9 +1,14 @@
 package main;
 
+import assets.MainWindow;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("BIENVENIDOS AL PROGRAMA QUE ESCALONA MATRICES");
-        System.out.println("INTRODUCE EL NUMERO DE ECUACIONES Y EL NUMERO DE VARIABLES QUE REQUIERES");
+        MainWindow win1 = new MainWindow(800, 600, true);
+       
+        
+        
     }
+    
    
 }
