@@ -1,7 +1,6 @@
 package main;
 
 import assets.MainWindow;
-import java.awt.Image;
 
 
 public class Main {
